@@ -1,34 +1,56 @@
+<!-- Crie uma página pessoal em seu servidor, 
+  contendo seu nome, 
+  alguma imagem, 
+  uma lista, 
+  uma tabela e 
+  algum hiperlink para algum site. 
+  Sua página deverá ser criada em HTML5 com CSS e conter no mínimo as seguintes marcações HTML: 
+  h1, img, ul, table e a. -->
 <!DOCTYPE html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" type="text/css" href="index.css">
     <script src="paivaindex.js"></script>
-    <title> Login Paivas </title>
+    <title> Tarefa 01 </title>
   </head>
   <body>
-    <form action="/">
-      <div class="imgcontainer">
-       <h3>Aula do paiva 01</h3>
-       <p>Pagina de login para o paiva</p>
-       <img src='unifesp.gif' href='www.unifesp.br'>
-
-      </div>
-
-      <div class="container">
-       <label><b>Usuário</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
-
-       <label><b>Senha</b></label>
-       <input type="password" placeholder="Enter Password" name="psw" required>
-
-        <button type="submit" onClick="nothing()">Login</button>
-       <input type="checkbox" checked="checked"> Lembrar-me
-       </div>
-
-       <div class="container" style="background-color:#f1f1f1">
-        <button type="button" class="cancelbtn">Cancel</button>
-        <span class="psw">Esqueceu sua <a onClick="nothing()">senha?</a></span>
-      </div>
-    </form> 
+    <h1> Tarefa 01 </h1>  
+    <div>
+      <!-- uma tabela -->
+      <table>
+        <tbody>
+          <tr>
+            <!-- contendo seu nome -->
+            <th> Nome </th>
+            <!-- uma figura -->
+            <th> Figura </th>
+            <!-- uma lista -->
+            <th> Listas </th>
+          </tr>
+          <tr>
+            <td> Marcel Matsuoka </td>
+            <td> <img src="unifesp.gif"> </img> </td>
+            <td>
+              <span>Letras</span>
+              <ul>
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+              </ul>
+              <span>Números</span>
+              <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </body>
+  <footer class ="rodape">
+    <!-- um hyperlink -->
+    Patrocinado por <a href="https://aluno00.bioinfo.unifesp.br">Paulo Paiva</a>
+  </footer>
 </html>

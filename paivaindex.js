@@ -1,3 +1,3 @@
-function nothing(){
+function erro(){
 	alert("ERRO");
 }
